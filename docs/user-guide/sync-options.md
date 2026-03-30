@@ -30,7 +30,7 @@ Prune sync policy defined in the Application.
 
 The sync-status panel shows that pruning was skipped, and why:
 
-## Force Prune Resources
+## Per-Resource Prune Override
 
 If pruning is disabled at the application or operation level (for example, by setting `spec.syncPolicy.automated.prune: false`), you can still allow specific resources to be pruned by using `Prune=true` on those resources:
 
